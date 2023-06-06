@@ -227,6 +227,11 @@ input:focus{
   grid-row: 2/3;
   margin-top: .7rem;
 }
+
+
+.announcements .main-title{
+  margin-left: 10px;
+}
 .ann-cards{
   background: turquoise;
   max-width: 300px;

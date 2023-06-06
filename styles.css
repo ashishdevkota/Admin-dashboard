@@ -86,7 +86,8 @@ svg{
   grid-area: nav;
   grid-column: 2/-1;
   grid-row: 1/2;
-  background: wheat;
+  background: #9c1c36e2;
+  color: #fff;
   
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -115,7 +116,7 @@ input:focus{
   border: none;
   outline: none;
   padding: 10px;
-  outline:2px solid  #E67D23;
+  outline:2px solid  #fff;
 }
 
 
@@ -147,7 +148,7 @@ input:focus{
 }
 
 .nav > a{
-  background: #047857;
+  background: #929b98;
   padding: 8px 32px;
   color: #fff;
   font-size: 1.1rem;
@@ -155,6 +156,11 @@ input:focus{
   margin: 0 15px;
   cursor: pointer;
 }
+
+.nav > a:hover{
+  background: #064e3b;
+}
+
 
 
 
